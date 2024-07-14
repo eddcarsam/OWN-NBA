@@ -1,0 +1,47 @@
+
+.body {
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    width: 100%;
+    /* border: 1px solid blue; */
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    /* grid-gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.body img {
+    width: 100px;
+    height: 60px;
+}
+
+.nbaimage1 {
+    border: 1px solid red;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+
+.nbaimage1 p {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+.footer {
+    /* border: 1px solid red; */
+    grid-column: 1/5;
+    grid-row: 4/5;
+    font-size: large;
+    color: red;
+    justify-self: center;
+    align-self: center;
+    /* background-color: brown; */
+    font-size: 20px;
+}
